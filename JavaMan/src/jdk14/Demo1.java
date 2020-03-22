@@ -5,7 +5,7 @@ record Person(String firstName, String lastName, int age){
         this(firstName, lastName, 0);
     }
 }
-
+//https://openjdk.java.net/jeps/359
 public class Demo1 {
     public static void main(String[] args) {
         Person person=new Person("Zura","Tikaradze", 25);

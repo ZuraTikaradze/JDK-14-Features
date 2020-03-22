@@ -3,7 +3,7 @@ package jdk14;
 enum Month {
     JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
 }
-
+// https://openjdk.java.net/jeps/361
 public class Demo2 {
     public static void main(String[] args) {
         Month month = Month.APR;
